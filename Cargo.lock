@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "paddison_simple_merge_sort"
+name = "sorts"
 version = "0.1.0"

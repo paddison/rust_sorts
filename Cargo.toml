@@ -1,5 +1,5 @@
 [package]
-name = "paddison_simple_merge_sort"
+name = "sorts"
 license = "MIT"
 description = "A simple (and probably bad) merge sort implementation, written for chapter 14.2 of the rust book."
 version = "0.1.0"
