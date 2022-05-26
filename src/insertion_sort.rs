@@ -1,5 +1,3 @@
-
-
 pub fn sort<T: PartialOrd + Copy>(list: &mut Vec<T>) {
     for i in 1..list.len() {
         let mut j = (i - 1) as isize;
