@@ -27,12 +27,12 @@ Basic implementation, no optimizations.
 
 ### Insertion Sort
 
-Basic implementation, no optimizations.
+Basic implementation, small optimizations.
 
 ## Benchmark
 
 It is possible to do some small benchmarks. Each benchmark will run with Heap, Quick, Merge and Insertion Sort, with a sorted dataset, an reversed dataset and a random dataset. 
-The size of the datasets can be specified, by passing a `Vec<usize>` into the function.
+The number of times each sort is repeated can be specified by passing a number into the function. The size of the datasets can be specified, by passing a `Vec<usize>` into the function. 
 
 Example:
 
