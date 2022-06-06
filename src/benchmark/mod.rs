@@ -6,11 +6,10 @@
 // 3. random
 
 // benchmarking always takes the raw time from when the sort starts till the end
-// results should be written to a csv-like file, for each algorithm in the form of
+// results should be written to a csv file, for each algorithm in the form of
 // datatype size1 size2 size3 size4 .... where sizes are averaged
 // sort
 // rev
 // rand
-// keep it simple and plot the results using matlab
 pub mod dataset_gen;
 pub mod benchmark_runner;

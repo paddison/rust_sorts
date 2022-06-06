@@ -36,7 +36,12 @@ impl Display for Alg {
 }
 
 pub fn run(repeats: usize, data_sizes: Vec<usize>) {
-    let algs = vec![Alg::Heap, Alg::Merge, Alg::Quick, Alg::Insert];
+    let algs = vec![
+        Alg::Heap, 
+        Alg::Merge, 
+        Alg::Quick, 
+        Alg::Insert
+    ];
     let data_types = vec![DataType::Sort, DataType::Rev, DataType::Rand];
     let time_stamp = Local::now();
     println!("Starting...");
@@ -58,7 +63,7 @@ pub fn run(repeats: usize, data_sizes: Vec<usize>) {
             let mut results = vec![];
 
             for size in &data_sizes {
-                println!("Size of data: {}", size);
+                // println!("Size of data: {}", size);
                 // results for a specific size
                 let mut size_results = vec![];
 
